@@ -102,12 +102,17 @@
     display: block;
     width: 420px;
   }
+  #searchList ul {
+    list-style-type: none;
+    margin-left:-195px ;
+    padding: 0;
+    }
   
 }
 
 @media screen and (max-width:336px){
   #searchList {
-    width: 300px;
+    width: 400px;
     margin: 0px;
   }
   #searchList li {
@@ -123,12 +128,21 @@
   }
   #searchList ul {
     list-style-type: none;
-    margin-left:-220px ;
+    margin-left:-200px ;
     padding: 0;
     }
 }
 
 @media screen and (max-width:376px){
+
+  #searchList ul {
+    list-style-type: none;
+    margin-left:-210px ;
+    padding: 0;
+    }
+}
+
+@media screen and (max-width:366px){
   #searchList {
     width: 350px;
     margin: 0px;
@@ -146,7 +160,7 @@
   }
   #searchList ul {
     list-style-type: none;
-    margin-left:-200px ;
+    margin-left:-230px ;
     padding: 0;
     }
   
