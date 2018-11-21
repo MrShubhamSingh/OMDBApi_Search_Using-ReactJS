@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+#form input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(236, 103, 103);
+    float: left;
+    width: 80%;
+    background: #fff8f8;
+    margin-top: 20%;
+
+}
+
+#form button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background:  #a7b3db;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(96, 114, 155);
+    border-left: none;
+    cursor: pointer;
+    margin-top: 20%;
+}
+
+#form button:hover {
+    background: #b3b6c0;
+}
+
+#form input:focus {
+    background: #ffeded;
+}

@@ -1,0 +1,203 @@
+#searchList {
+  width: 1400px;
+  margin: 0px;
+}
+
+
+
+#searchList ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+#searchList li {
+  font: 200 10px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 0.5px solid rgb(192, 39, 12);
+  border-top: 1px solid rgb(243, 120, 98);
+ 
+}
+
+
+#searchList li {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 1400px;
+}
+
+#searchList li:hover {
+  font-size: 12px;
+  background: #e24a4a;
+}
+
+
+.result{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width:600px){
+  #searchList {
+    width: 400px;
+    margin: 0px;
+  }
+  #searchList li {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 360px;
+  }
+  
+}
+
+@media screen and (max-width:1200px){
+  #searchList {
+    width: 1050px;
+    margin: 0px;
+  }
+  #searchList li {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 1050px;
+  }
+  
+}
+
+@media screen and (max-width:450px){
+  #searchList {
+    width: 400px;
+    margin: 0px;
+  }
+  #searchList li {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 420px;
+  }
+  
+}
+
+@media screen and (max-width:336px){
+  #searchList {
+    width: 300px;
+    margin: 0px;
+  }
+  #searchList li {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 320px;
+  }
+  
+}
+
+@media screen and (max-width:376px){
+  #searchList {
+    width: 350px;
+    margin: 0px;
+  }
+  #searchList li {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 375px;
+  }
+  
+}
+
+@media screen and (max-width:780px){
+  #searchList {
+    width: 760px;
+    margin: 0px;
+  }
+  #searchList li {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 780px;
+  }
+  
+}
+
+#myInput {  
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 30%;
+  font-size: 16px;
+  padding: 6px 6px 6px 2px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  margin-bottom: 12px;
+  text-decoration: none;
+  margin-left:10%;
+  outline: none;
+}
+
+#myInput:focus {
+ outline: none;
+}
+
+#button {
+  background-color: rgb(223, 135, 100); /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 22px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+#button:hover {
+  box-shadow: 0 12px 8px 0 rgba(228, 46, 46, 0.24),0 17px 50px 0 rgba(255, 42, 42, 0.603);
+  outline: none;
+}
+
+#button:focus{
+  outline: none;
+}
