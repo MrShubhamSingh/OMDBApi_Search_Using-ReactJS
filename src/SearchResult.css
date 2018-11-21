@@ -59,6 +59,11 @@
     display: block;
     width: 360px;
   }
+  #searchList ul {
+    list-style-type: none;
+    margin-left:-180px ;
+    padding: 0;
+    }
   
 }
 
@@ -116,7 +121,11 @@
     display: block;
     width: 320px;
   }
-  
+  #searchList ul {
+    list-style-type: none;
+    margin-left:-220px ;
+    padding: 0;
+    }
 }
 
 @media screen and (max-width:376px){
@@ -135,6 +144,11 @@
     display: block;
     width: 375px;
   }
+  #searchList ul {
+    list-style-type: none;
+    margin-left:-200px ;
+    padding: 0;
+    }
   
 }
 
